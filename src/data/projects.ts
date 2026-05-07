@@ -43,15 +43,14 @@ export const ProjectsData = [
     hyperlink: "https://leapnetwork.netlify.app/",
   },
   {
-    name: "Food Order",
+    name: "Forkit Order",
     description: `Este projeto simula um fluxo completo de e-commerce alimentício, focando na integração entre uma interface reativa em React.js e um backend 
     local em Express. A aplicação utiliza Tailwind CSS para um design responsivo e implementa uma arquitetura de estado global para gerenciar o carrinho de 
     compras e cálculos dinâmicos em tempo real. O desenvolvimento priorizou a lógica de negócio, abrangendo desde a validação de formulários até o tratamento de 
-    erros de API. Por utilizar um servidor local para a persistência de dados, o projeto não possui deploy online, sendo focado na demonstração de competências 
-    técnicas e integração full-stack em ambiente de desenvolvimento. 
+    erros de API.
     `,
     image: project5,
     tags: ["React", "Express", "Tailwind", "REST API"],
-    hyperlink: "https://github.com/VitorRamires/vitor_portifolio",
+    hyperlink: "https://forkitorder.netlify.app/",
   },
 ];
