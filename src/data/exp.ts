@@ -5,13 +5,23 @@ export const experiencesData = [
     location: "Brasil - RS",
     role: "Desenvolvedor Front-end",
     description: [
-      `Atuo no desenvolvimento de interfaces escaláveis em JavaScript (ES6+), integrando o front-end a ecossistemas 
-      complexos em Django. Sou responsável por garantir a paridade entre ambientes de desenvolvimento e produção através de Docker, 
-      eliminando gargalos de infraestrutura. Lidero a implementação de componentes modulares baseados em Design Systems (Figma) e asseguro 
-      que a plataforma atenda aos mais altos padrões de acessibilidade (WCAG) e usabilidade para produtos SaaS de alta complexidade.`,
-    
+      `Atuo no desenvolvimento de interfaces modernas com JavaScript (ES6+) integradas ao ecossistema Django, criando componentes modulares e 
+      reutilizáveis que otimizaram o tempo de desenvolvimento de novas telas. Utilizei ambientes conteinerizados com Docker para garantir paridade 
+      total entre desenvolvimento local e produção, eliminando gargalos de dependências e reduzindo incidentes de implantação. Trabalhei com Design 
+      Systems e documentação técnica no Figma como referência visual única, assegurando consistência em fluxos complexos e diminuindo o retrabalho de UI. 
+      Fiz uso avançado de Git/GitHub, aplicando fluxos colaborativos e revisões de código rigorosas para garantir rastreabilidade e reduzir a incidência de 
+      bugs críticos.`,
     ],
-    tags: ["Javascript", "Docker", "HTML", "CSS3", "GIT / Github", "Django", "WCAG", "Figma"],
+    tags: [
+      "Javascript",
+      "Docker",
+      "HTML",
+      "CSS3",
+      "GIT / Github",
+      "Django",
+      "WCAG",
+      "Figma",
+    ],
   },
 
   {

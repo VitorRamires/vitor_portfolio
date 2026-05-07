@@ -1,8 +1,8 @@
 import { useRef, useState } from "react";
 import { Title } from "./title";
 import { motion, useInView } from "framer-motion";
-import curriculum from "../assets/pdf/Curriculo Desenvolvedor - Vitor Ramires 2025.pdf";
-import curriculumEN from "../assets/pdf/Resume Developer - Vitor Ramires.pdf";
+import curriculum from "../assets/pdf/Currículo  Desenvolvedor - Vitor Ramires.pdf";
+import curriculumEN from "../assets/pdf/Developer Resume - Vitor Ramires.pdf";
 
 export function About() {
   const [axisX, setAxisX] = useState(0);
@@ -77,13 +77,13 @@ export function About() {
               linguagens.
             </p>
             <p>
-              Já tive algumas experiencias profissionais como desenvolvimento de
-              banners publicitários e materiais digitais para marcas de alto
-              impacto, suporte técnico em banco de dados ajudando na
-              identificação e resolução de bugs junto aos clientes e atualmente,
-              estou trabalhando no desenvolvimento front-end de uma plataforma
-              de gestão jurídica, e sigo me aperfeiçoando por meio de projetos
-              pessoais e cursos focados em frameworks modernos.
+              Já tive experiencias profissionais no desenvolvimento de
+              interfaces de alto impacto para grandes marcas, suporte técnico em
+              banco de dados ajudando na identificação e resolução de bugs junto
+              aos clientes, e atualmente atuando no desenvolvimento e manutenção
+              de uma plataforma de gestão jurídica. Sigo me aperfeiçoando por
+              meio de projetos pessoais, documentação e cursos focados em
+              frameworks modernos.
             </p>
           </motion.div>
           <div className="resume-wrapper">
