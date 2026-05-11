@@ -8,12 +8,13 @@ interface ProjectProps {
     tags: string[];
     name: string;
     description: string;
+    OBS: string;
   };
 }
 
 export function Project({ project }: ProjectProps) {
   const animRef = useRef(null);
-  const inView = useInView(animRef, { amount:.4, once: true });
+  const inView = useInView(animRef, { amount: 0.4, once: true });
 
   const animationProject = {
     hidden: {
@@ -47,6 +48,9 @@ export function Project({ project }: ProjectProps) {
       </div>
       <p className="project-name">{project.name}</p>
       <p className="project-description">{project.description}</p>
+      <p className="project-OBS">
+        <strong>{project.OBS ? `Observação: ${project.OBS}` : ""}</strong>
+      </p>
     </motion.div>
   );
 }

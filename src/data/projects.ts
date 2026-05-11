@@ -20,7 +20,7 @@ export const ProjectsData = [
     A interface foi construída com Radix UI e styled-components, garantindo um design moderno, acessível e responsivo. Os dados dos 
     livros são armazenados localmente no navegador utilizando o Local Storage.`,
     image: project2,
-    tags: ["React", "React-hook-form", "LocarStorage", "React-Router"],
+    tags: ["React", "React-hook-form", "LocalStorage", "React-Router"],
     hyperlink: "https://bookguard.netlify.app/",
   },
   {
@@ -49,6 +49,7 @@ export const ProjectsData = [
     compras e cálculos dinâmicos em tempo real. O desenvolvimento priorizou a lógica de negócio, abrangendo desde a validação de formulários até o tratamento de 
     erros de API.
     `,
+    OBS: "Por utlizar uma versão gratuita do RENDER, a ativação do servidor backend pode demorar de 1 a 2 minutos apos a acessar o deploy",
     image: project5,
     tags: ["React", "Express", "Tailwind", "REST API"],
     hyperlink: "https://forkitorder.netlify.app/",

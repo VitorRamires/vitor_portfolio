@@ -9,7 +9,12 @@ export function Projects() {
         <Title synonim="Portifólio" title="Projetos" />
         <div className="projects-wrapper">
           {ProjectsData.map((project, index) => {
-            return <Project project={project} key={index} />;
+            return (
+              <Project
+                project={{ ...project, OBS: project.OBS ?? "" }}
+                key={index}
+              />
+            );
           })}
         </div>
       </div>

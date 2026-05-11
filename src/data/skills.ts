@@ -6,6 +6,7 @@ import reactImg from "../assets/icons/react.svg";
 import radixImg from "../assets/icons/radix.svg";
 import gitImg from "../assets/icons/git.svg";
 import tsImage from "../assets/icons/typescript.svg";
+import twind from "../assets/icons/tailwind.svg";
 
 export const SkillsData = [
   {
@@ -39,5 +40,9 @@ export const SkillsData = [
   {
     tech: "Typescript",
     source: tsImage,
+  },
+  {
+    tech: "Tailwind",
+    source: twind,
   },
 ];
